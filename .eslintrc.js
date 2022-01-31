@@ -24,5 +24,11 @@ module.exports = {
     'react/function-component-definition': 0,
     'react/jsx-wrap-multilines': 0,
     'object-curly-newline': 0,
+    'comma-dangle': 0,
+  },
+  settings: {
+    'import/resolver': {
+      'babel-module': {},
+    },
   },
 };
