@@ -15,6 +15,14 @@
       "gender": "female",
       "confirmPassword": "abcd",
       "id": 2
+    },
+    {
+      "email": "krishna@gmail.com",
+      "password": "$2a$10$uNL5.hRh/y48yUeyRXwfQuXbK6Glz6tdqJCn6WbiyJ7afvoGCoDUm",
+      "name": "krishna",
+      "gender": "male",
+      "confirmPassword": "Pass@123",
+      "id": 3
     }
   ],
   "todo-list": [
@@ -303,16 +311,5 @@
       }
     }
   ],
-  "cart": [
-    {
-      "productId": 2,
-      "quantity": 1,
-      "id": 1
-    },
-    {
-      "productId": 1,
-      "quantity": 1,
-      "id": 2
-    }
-  ]
+  "cart": []
 }
