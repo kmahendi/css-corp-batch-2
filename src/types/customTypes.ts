@@ -27,3 +27,13 @@ export type IsFirstOrLastProps = IsFirstType | IsLastType;
 export type ProviderType = {
   children: React.ReactElement;
 };
+
+export type LoadingType = {
+  type: string;
+  processId?: number;
+};
+
+export type ErrorType = {
+  error: string;
+  key?: string;
+} & LoadingType;
